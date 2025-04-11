@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_choose_ground_index",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_choose_ground_index",
+  "parent":{
+    "name":"Скрипты",
+    "path":"folders/Скрипты.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
