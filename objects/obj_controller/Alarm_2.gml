@@ -8,4 +8,7 @@ var inst =
 		);
 inst.image_speed = 0;
 inst.image_index = choose(0,1);
+
+if (global.gameOver) exit;
+
 alarm[2] = game_get_speed(gamespeed_fps)*random_range(1,2);

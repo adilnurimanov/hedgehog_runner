@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"test",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -26,11 +26,12 @@
     {"$GMFolder":"","%Name":"Шейдеры","folderPath":"folders/Шейдеры.yy","name":"Шейдеры","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Шрифты","folderPath":"folders/Шрифты.yy","name":"Шрифты","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"test",
   "resources":[
@@ -40,6 +41,7 @@
     {"id":{"name":"obj_hadgehog","path":"objects/obj_hadgehog/obj_hadgehog.yy",},},
     {"id":{"name":"obj_middle_house","path":"objects/obj_middle_house/obj_middle_house.yy",},},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
+    {"id":{"name":"obj_replay","path":"objects/obj_replay/obj_replay.yy",},},
     {"id":{"name":"obj_small_house_ground","path":"objects/obj_small_house_ground/obj_small_house_ground.yy",},},
     {"id":{"name":"obj_small_house","path":"objects/obj_small_house/obj_small_house.yy",},},
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
@@ -53,11 +55,14 @@
     {"id":{"name":"spr_big_mushroom","path":"sprites/spr_big_mushroom/spr_big_mushroom.yy",},},
     {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
+    {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_ground_black","path":"sprites/spr_ground_black/spr_ground_black.yy",},},
     {"id":{"name":"spr_ground_grey","path":"sprites/spr_ground_grey/spr_ground_grey.yy",},},
+    {"id":{"name":"spr_hadgehog_dead","path":"sprites/spr_hadgehog_dead/spr_hadgehog_dead.yy",},},
     {"id":{"name":"spr_hadgehog_stand","path":"sprites/spr_hadgehog_stand/spr_hadgehog_stand.yy",},},
     {"id":{"name":"spr_hadgehog_walk","path":"sprites/spr_hadgehog_walk/spr_hadgehog_walk.yy",},},
     {"id":{"name":"spr_middle_house","path":"sprites/spr_middle_house/spr_middle_house.yy",},},
+    {"id":{"name":"spr_restart","path":"sprites/spr_restart/spr_restart.yy",},},
     {"id":{"name":"spr_small_house","path":"sprites/spr_small_house/spr_small_house.yy",},},
     {"id":{"name":"spr_small_mushroom","path":"sprites/spr_small_mushroom/spr_small_mushroom.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},

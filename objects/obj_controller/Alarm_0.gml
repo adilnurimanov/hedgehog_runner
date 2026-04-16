@@ -14,7 +14,7 @@ switch (inst.sprite_index)
 	case spr_big_mushroom:
 		inst.image_speed = 0;
 		inst.image_index = irandom_range(0, sprite_get_number(inst.sprite_index)-1);
-		inst.y = room_height - 180;
+		inst.y = room_height - 190;
 	break;
 
 	case spr_bird:
@@ -22,5 +22,7 @@ switch (inst.sprite_index)
 		inst.y = room_height - 180;
 	break;
 }
+
+if (global.gameOver) exit;
 
 alarm[0] = game_get_speed(gamespeed_fps) * random_range(1,3);
